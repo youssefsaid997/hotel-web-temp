@@ -1,0 +1,197 @@
+/* to rest all styling .. we used to rest padding and margin and define the box size */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* utility classes */
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px; 
+    margin: auto;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.bg-light{
+    background:#f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background-color: lightsalmon;
+    color: #333;
+}
+
+.hstyle {
+    color: lightsalmon;
+}
+
+.lead{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    background: #333;
+    border: none;
+    padding: 10px 15px;
+    cursor:pointer;  
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #222;
+}
+.btn:hover {
+    background-color: lightsalmon;
+    color: #333;
+    
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+/* header navigation bar */
+
+#navBar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+#navBar a{
+    color: white;
+}
+
+#navBar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navBar ul {
+    list-style: none;
+    float: right;
+}
+
+#navBar ul li {
+    float: left;
+}
+
+#navBar ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#navBar ul li a:hover,
+#navBar ul li a.current{
+    background-color: #222;
+    color: lightsalmon;
+}
+
+
+/* showcase styling */
+
+#showcase {
+    background: url('../image_resources/image_resources/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    
+}
+
+#showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 16px;
+    line-height: 1.5em;
+}
+
+
+/* styling for home info  */
+
+#home-info {
+    height: 500px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background:  url('../image_resources/image_resources/photo-1.jpg') no-repeat ;
+    min-height: 100%;
+}
+
+#home-info .info-text {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-text p {
+    padding-bottom: 30px;
+}
+
+/* features styling */
+
+.box{
+    float: left;
+    padding: 50px;
+    width: 33.3%;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+#main-footer{
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    font-weight:  bold;
+}
